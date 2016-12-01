@@ -46,7 +46,7 @@ jobs:
   - name: drewoconnor-ecs-deploy-prod-front-end
     type: deploy
     steps:
-      - IN: yourName-ecs-deploy-test-front-end
+      - IN: drewoconnor-ecs-deploy-test-front-end
         switch: off
       # - IN: release-front-end
       #   switch: off
